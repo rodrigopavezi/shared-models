@@ -21,7 +21,7 @@
     "test-coverage": "npm run compile-test && nyc mocha 'src/**/__tests__/*.test.ts'",
     "test": "npm run compile-test && mocha 'src/**/__tests__/*.test.ts'"
   },
-  "peerDependencies": {
+  "dependencies": {
     "ethers": "6.13.1"
   },
   "devDependencies": {
